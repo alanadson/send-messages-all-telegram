@@ -11,10 +11,6 @@ pip install pyrogram
 ```
 
 ```bash
-pip install json
-```
-
-```bash
 pip install TgCrypto
 ```
 
