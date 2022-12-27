@@ -37,7 +37,6 @@ while True:
                 user_name = member.user.first_name
                 message_text = send_message
                 apps.send_message(user_id, message_text)
-                apps.send_photo(chat_id=user_id, photo="image.jpg", caption=message_text)
                 time.sleep(time_message)
 
                 sent_messages.append(user_id)
