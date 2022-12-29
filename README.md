@@ -14,6 +14,10 @@ pip install pyrogram
 pip install TgCrypto
 ```
 
+```bash
+pip install PyQt5
+```
+
 ## Configuration
 
 Before running the script, you will need to provide your API ID and API hash to access the Telegram API. You will also need to provide the phone number associated with your Telegram account.
