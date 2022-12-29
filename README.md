@@ -25,7 +25,7 @@ To obtain your API ID and API hash, you will need to create an app in the [Teleg
 To use the script, simply run it with Python:
 
 ```bash
-python script.py
+python main.py
 ```
 
 The script will display the following options:
