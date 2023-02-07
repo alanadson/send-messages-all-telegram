@@ -1,0 +1,4 @@
+pyrogram
+TgCrypto
+PyQt5
+configparser
