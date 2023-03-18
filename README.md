@@ -36,7 +36,7 @@ Install the dependencies
   pip install -r requirements.txt
 ```
 
-Start the program
+Start the program 
 
 ```bash
   main.py
