@@ -15,7 +15,12 @@ class App(QtWidgets.QWidget):
     def initUI(self):
         self.api_id = your_api_id
         self.api_hash = "your_api_hash"
-        self.apps = Client("Sessions/", int(self.api_id), str(self.api_hash), phone_number="your_phone_number")
+        self.apps = Client(
+            "Sessions/",
+            int(self.api_id),
+            self.api_hash,
+            phone_number="your_phone_number",
+        )
         self.apps.start()
 
         self.link_label = QtWidgets.QLabel("Link do grupo", self)
